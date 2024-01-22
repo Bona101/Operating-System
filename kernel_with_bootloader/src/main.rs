@@ -1,7 +1,6 @@
 #![no_std]
 #![no_main]
 mod writer;
-mod printt;
 use bootloader_api::config::Mapping;
 use writer::FrameBufferWriter;
 use x86_64::instructions::hlt;
